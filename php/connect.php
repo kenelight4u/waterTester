@@ -35,6 +35,8 @@
     }else{
         echo "Email should not be empty";
         die();
+
     }
+
 
 ?>
