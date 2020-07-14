@@ -5,10 +5,10 @@
     if(!empty($email)){
         
                
-        $host = "localhost";
-        $dbusername = "root";
-        $dbpassword = "";
-        $dbname = "youtube";
+        $host = "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $dbusername = "mz5a9k7kizkj0eou";
+        $dbpassword = "wzl73a4abiiszra3";
+        $dbname = "y4ce91ybk03pet4k";
 
         // Create Connection
         $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
