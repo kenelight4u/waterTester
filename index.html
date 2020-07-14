@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waterTester</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+
+               
+
+
+
+                <section class="d-flex flex-column justify-content-center px-3 py-5 "
+                    style="min-width: 300px; max-width: 500px; margin: auto; height: 70vh; background-color: beige; border: 0 solid green; margin-top: 100px;">
+                   
+                    <div class="head px-5 py-5" >
+                        <h1 class="text-center ">
+                            waterTester
+                        </h1>
+                        <p class="text-center py-3">
+                            An App that tells you if water is safe for drinking by taking a picture of it...
+                        </p>
+                        <h3 class="text-center">COMING SOON!!!</h3>
+                    </div>
+
+
+                    <form class="form-inline d-flex justify-content-center" method="POST" action="./php/connect.php">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="inputPassword2" class="sr-only">Password</label>
+                            <input type="email" name="email" class="form-control" placeholder="Email"
+                                id="exampleInputEmail1">
+                        </div>
+                        <button type="submit" value="Submit" class="btn btn-primary mb-2">Subscribe</button>
+                    </form>
+                    <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone
+                        else.</small>
+
+                </section>
+
+
+
+
+
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- PlugIn -->
+    <script src="./js/wow.min.js">
+    </script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        }
+        );
+        wow.init();
+    </script>
+</body>
+
+</html>
